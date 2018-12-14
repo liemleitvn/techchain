@@ -1,0 +1,13 @@
+/vendor
+/storage/*.key
+/storage
+/storage/*
+.env
+/node_modules/*
+package-lock.json
+composer.lock
+/public/access.log
+/public/error.log
+/config/constant.php
+/.vscode
+/.idea/*

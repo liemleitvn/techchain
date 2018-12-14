@@ -1,0 +1,105 @@
+a{ text-decoration: none;}
+a:hover{ color: #000; }
+body {
+    -moz-user-select: none !important;
+    -webkit-user-select: none!important;
+    -khtml-user-select: none!important;
+    -moz-user-select: none!important;
+    -ms-user-select: none!important;
+    user-select: none!important;
+}
+
+header{ border-bottom:  2px solid; height: 100px; position: relative;}
+.show-content-exam{
+    position: relative; height: 450px ;
+    width: 70%;
+    overflow-y: auto; 
+    overflow-x: hidden;
+    float: right;
+    margin-right: 3%;
+    margin-top: 1%;
+    padding-top: 1%;
+    word-break: break-all;
+    background: #eef0f1;
+}
+
+h4{ font-weight: bold }
+input[type=checkbox] {transform: scale(1.5);}
+.logo{ height: 50px; width: 150px; line-height:50px ; position: absolute; left: 3%;top: 25%;}
+.info-user{ line-height:50px; position: absolute; right: 8%;top: 25%;}
+.start{ line-height:50px; position: absolute; right: 3%;top: 24%; padding: 0px 15px; }
+
+.clock{line-height:50px; position: absolute; right: 40%;top: 25%;}
+.clock-img{ position: absolute; top: 0%; left: 5%}
+
+.time{ position: absolute; top: 0%; right:40%; line-height: 50px; width:35%;}
+
+.count-question{line-height: 50px; position: absolute; top: 0%; right: 5%   }
+.show-time{ line-height: 50px; position: relative  }
+.content { width: 100%; margin: 0 2% auto; margin-bottom: 2% !important;}
+
+.next-question{ clear:both; margin-bottom: 0% }
+.next, .prev{width: 5%; /* position: absolute; */ line-height: 50px; text-align: center;}
+.next { margin-right: 35%; float: right; }
+.prev{ margin-left:  55% ; }
+
+.pagina{ margin:0% auto;   width: 50%; margin-top: 10px;}
+.btn-primary{ padding-left: 20px !important; padding-right: 20px !important }
+
+.disablebtn{ pointer-events: none;opacity: 0.4; }
+#start{color:white; width: 115% }
+
+.guide{ width: 35%; margin: 50px auto;}
+.color{ color: #4368de; }
+.progress {height: 15px !important; width: 200%; }
+#myProgress{ 
+    color: #000; text-align: center;
+    font-size: 12px;
+    line-height: 50px;
+    top: 33px;
+    right: -10%;
+    position: absolute;
+    padding: 0px;
+    z-index: 999;
+}
+.color-name{ color:  #4069dd; }
+.finish{position: absolute; top: 30px; right: 46px;}
+
+.show-notification{ position: relative;right: -1000px;top: 20px;}
+.content_question{ padding-left: 10px !important; font-weight: bold !important; font-size: 18px; font-family: 'Arial'}
+.content_question textarea{ padding: 10px; border:none;background: #eef0f1; resize: none; font-weight: bold}
+
+.pagination{ justify-content: center}
+.read{ background: orange; color: #ffff;}
+.is_answer{ background: green; color: #ffff;}
+.is_active{ background: blue; color: #ffff; }
+
+.paginate-left{
+    left: 40px;
+    top: 110px;
+    width: 20%;
+    height: 500px;
+    position: absolute;
+    padding-top: 1%;
+}
+
+.paginate-item{
+    width: 20%; height: 10%;float: left; margin: 1% 1% 0 1%;
+    border-radius: 5px;
+    line-height: 300%;
+    justify-content: center;
+}
+.paginate-link{
+    border-radius: 5px;
+    text-align: center;
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+.paginate-link:hover{ text-decoration: none}
+.read.hover:hover,
+.is_answer.hover:hover,
+.is_active.hover:hover
+{ opacity: 0.6; color:#f1e3e3 !important;}
+
+.error{ margin: 0px auto; margin-top: 10px; text-align: center}

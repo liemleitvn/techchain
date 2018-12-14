@@ -1,0 +1,126 @@
+form >a>i{ font-size: 20px !important; }
+a:hover{ cursor: pointer }
+.close{
+	position: absolute !important; 
+    right: 15px !important;
+    top: 15px !important;
+    font-size: 40px;
+    border: none;
+}
+.main-header{ height: 50px }
+.close:hover{ color: red; }
+.add{ margin-top: 20px }
+.select{ margin-bottom: 5px; }
+.edit-title,.lb-user{float: left !important;}
+.sidebar-menu > li >a> i{font-size: 18px}
+
+/* Dinh dang table category */
+.edit,.delete,.level{ width: 5% ;}
+.question{width: 30%}
+.id,.category{ width: 3%; }
+.skill-category,.phone{width: 7%; text-align: center}
+.is_correct,.is_disable{width: 5%;}
+.date{width: 150px;}
+.time{width:10%;}
+.number-question,.is_can_add_category{ width: 150px; }
+
+#example2 > thead{ background: #464545 !important ; color:white; text-align: center}
+#example2 > thead > tr > th{ text-align: center}
+#example2 > th{text-align: center !important}
+#example2 > tbody > tr > td > a{font-size: 20px; }
+/* #example2 > tbody > tr > td > a > i:hover{color: red} */
+#example2 > tbody > tr > td{text-align: center;vertical-align: middle;}
+#example2 > tbody > tr:hover{ background-color: #96c7f1;transition: 1s ease;}
+/* #example2 > tbody > tr:hover i{ color: red; } */
+#example2 > tbody > tr > td > ul > li{ list-style: none; border-bottom: 1px ridge;}
+#example2 > tbody > tr > td > ul{ padding: 0px; }
+#example2 > tbody > tr > td .href-question{ display: block  }
+
+/* Button Add */
+#btn-category { float: right; margin-right: -4px; font-weight: bold;}
+#btn-category > span > i{ font-size: 16px ;padding-left: 5px;}
+
+/* Button Add question */
+.btn-add-answer{ margin: 10px; margin-right: 0px !important}
+
+/* ------Logo-----*/
+.logo-techchain > img{ width: 150px;}
+.logo-img{ width: 190px; padding-left: 7px; }
+
+
+/* ------Answer-----*/
+.answer,.answer-edit,.answer-edit-new{ position: relative; margin: 5px 0px;}
+
+.ip-answer{ width: 90%; }
+.correct,.correct-delete,.correct-edit,.correct-edit-new {
+    width: 5%;
+    height: 20px;
+    position: absolute;
+    top: 5px;
+    right: 20px;
+}
+.correct-delete{ 
+	right: -10px; 
+	line-height: 25px;
+	font-size: 25px;
+	color: #ccc;
+}
+.correct-delete:hover{cursor: pointer; color: red;}
+
+#example2 li:nth-child(even) {background: #ececec}
+#example2 li:nth-child(odd) {background: #FFFFFF}
+
+/* ------Header-menu-----*/
+.dropdown-menu{min-width: 145px !important; width: 145px !important; margin-right: -2px; border-bottom-left-radius: 10px !important;}
+.dropdown-menu > li{ list-style: none; }
+.user-footer {background: #3c8dbc !important; border-bottom-left-radius: 10px }
+.user-footer > .form-group{margin-bottom: 0px !important;}
+.user-footer > .form-group >ul{ padding-left: 0px !important }
+.user-footer > .form-group >ul >li{list-style: none;}
+.user-footer > .form-group >ul >li:hover a{ color: #ccc }
+.user-footer > .form-group >ul >li >a{ color: white; display: block; padding-left: 40px}
+
+table{ font-size: 14px }
+#btn-add{
+    float: right;
+    margin-right: 0px !important;
+    font-weight: bold;
+}
+/*--------Cuttom temple when use ajax-----*/
+.disablebtn{ pointer-events: none;opacity: 0.4; }
+#show{}
+.show-notification-main{
+    width: 15%;
+    position: absolute;
+    z-index: 99999;
+    right: 0px;
+}
+.show-notification-main > .alert-danger{  background: rgba(255, 0, 0, 0.8) !important; }
+.show-notification-main > .alert-success{  background: rgba(0,128,0,0.8) !important; }
+.number{ padding:  5px 10px; }
+
+.lb-skill{float: left;}
+.ip-number-question{ margin-left: -486px }
+.show-edit,.show-level-edit,.show-category-edit,.show-question-edit,.show-user-edit{ text-align: left !important}
+.lb-rdio-edit{margin-left: -415px;margin-top: 15px;}
+.rdio-edit{margin-left: -525px; /* width: 50px */}
+.note > lable{ font-weight: bold; font-size: 16px}
+#btn-import >span > i{ font-size: 16px ;padding-left: 5px; }
+
+#btn-import{ float: right; margin-right: 10px; font-weight: bold; }
+.href-question {color: black; font-size: 14px !important; }
+.href-question:hover {color: black;}
+
+.list-skill {margin-left: 50%;position: absolute; top:30px;}
+.list-skill li {margin: 1px 3px ;}
+.list-skill li > a  { color: #000; }
+.list-skill li:nth-child(even) {background: #6eafd4!important;}
+.list-skill li:nth-child(odd) {background: #6eafd4 !important;}
+.list-skill li > a:hover{  background: #3c8dbc !important; color: #ffff;}
+
+.show-dropdown-skill li > a{ color:  black; }
+#quick-insert{float: right; margin-left: 15px; font-weight: bold;}
+#btn-preview-question{float: left}
+.content-question{height: 80px !important}
+
+.table-user-result > tbody > tr > td { cursor: pointer }
